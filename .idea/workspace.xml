@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e65f84a-0478-4c6b-b1f3-810b15cb1fb5" name="Changes" comment="">
+    <list default="true" id="6e65f84a-0478-4c6b-b1f3-810b15cb1fb5" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Point/NamedMultipointTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point/NamedMultipointTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Point/NamedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point/NamedPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Point/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Point/Point.java" afterDir="false" />
@@ -25,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2cQBjDtO1JvaoOc1EUIt1VT8i5i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,8 +50,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708034056226</updated>
-      <workItem from="1708034057715" duration="345000" />
+      <workItem from="1708034057715" duration="3172000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1708034411382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708034411382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

@@ -1,9 +1,12 @@
 package Point;
 
+import java.util.Scanner;
+
 public class NamedPoint extends Point {
+
     private String name;
 
-    public NamedPoint(String name, double x, double y) {
+    public NamedPoint(double x, double y, String name) {
         super(x, y);
         this.name = name;
     }
@@ -12,8 +15,11 @@ public class NamedPoint extends Point {
         return name;
     }
 
-    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String toString() {
-        return name + super.toString();
+        return name + ": " + super.toString();
     }
 }

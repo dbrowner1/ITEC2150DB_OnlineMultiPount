@@ -3,21 +3,24 @@ package Point;
 import java.util.Scanner;
 
 public class SixPointDistanceTester {
+
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        computeShortestDistance(enterNamedPoint());
+        NamedPoint[] namedPoints = enterNamedPoint();
+        computeShortestDistance(namedPoints);
     }
 
     public static NamedPoint[] enterNamedPoint() {
+        char[] pointNames = {'a', 'b', 'c', 'd', 'e', 'f'};
         NamedPoint[] namedPoints = new NamedPoint[6];
-        System.out.println("Enter 6 named points (name, x, y): ");
+
+        System.out.println("Enter 6 points of x and y coordinates:");
         for (int i = 0; i < namedPoints.length; i++) {
-            String name = input.next();
-            double x = input.nextDouble();
-            double y = input.nextDouble();
-            namedPoints[i] = new NamedPoint(name, x, y);
+            System.out.print("Point " + pointNames[i] + ": ");
+            namedPoints[i] = new NamedPoint(input.nextDouble(), input.nextDouble(), String.valueOf(pointNames[i]));
         }
+
         return namedPoints;
     }
 
